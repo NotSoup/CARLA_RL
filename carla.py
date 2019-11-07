@@ -1,6 +1,7 @@
 import glob
 import os
 import sys
+import numpy
 
 try:
     sys.path.append(glob.glob('../carla/dist/carla-*%d.%d-%s.egg' % (
